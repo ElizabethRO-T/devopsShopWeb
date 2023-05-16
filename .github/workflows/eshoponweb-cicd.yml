@@ -9,7 +9,7 @@ env:
   LOCATION: brazilsouth
   TEMPLATE-FILE: .azure/bicep/webapp.bicep
   SUBSCRIPTION-ID: 0e35dac7-76ce-44a2-a368-fb2874fa6bc8
-  WEBAPP-NAME: webappeli
+  WEBAPP-NAME: webappeli2
 
 
 jobs:
