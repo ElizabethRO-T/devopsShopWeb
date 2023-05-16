@@ -5,11 +5,11 @@ on: [push, workflow_dispatch]
 
 #Environment variables https://docs.github.com/en/actions/learn-github-actions/environment-variables
 env:
-  RESOURCE-GROUP: RG_GithubActions2
-  LOCATION: brazilsouth
+  RESOURCE-GROUP: RGWebapp
+  LOCATION: westeurope
   TEMPLATE-FILE: .azure/bicep/webapp.bicep
   SUBSCRIPTION-ID: 0e35dac7-76ce-44a2-a368-fb2874fa6bc8
-  WEBAPP-NAME: webappeli2
+  WEBAPP-NAME: webappelieurope
 
 
 jobs:
